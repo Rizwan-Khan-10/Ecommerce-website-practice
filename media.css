@@ -1,0 +1,313 @@
+@media(max-width:799px) {
+    #navbar {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        height: 100vh;
+        width: 300px;
+        background-color: #e3e5f3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s ease-in-out;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+    }
+
+    #mobile li {
+        list-style: none;
+        color: black;
+    }
+
+    #mobile i {
+        color: #1a1a1a;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    #close {
+        display: block;
+        color: #222;
+        font-size: 24px;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+
+    #cart {
+        display: none;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 38px;
+    }
+
+    main {
+        height: 70vh;
+        padding: 0px 25px;
+        background-position: top 30% right 30%;
+
+    }
+
+    #feature-container {
+        justify-content: center;
+        padding: 40px;
+    }
+
+    .feature {
+        margin: 15px;
+    }
+
+    .product-container {
+        justify-content: center;
+    }
+
+    .product {
+        margin: 15px;
+    }
+
+    #banner {
+        height: 30vh;
+    }
+
+    #sm-banner {
+        padding: 40px;
+    }
+
+    .banner-box {
+        min-width: 100%;
+        height: 30vh;
+    }
+
+    .banner-box2 {
+        margin-top: 20px;
+    }
+
+    #banner3 {
+        padding: 0 40px;
+    }
+
+    #banner3 .banner-box {
+        width: 28%;
+        padding: 15px;
+    }
+
+    .form {
+        width: 70%;
+    }
+
+    .form button {
+        padding: 11.5px 15px;
+    }
+
+    #banner button {
+        padding: 10px 20px;
+    }
+
+    #newsletter {
+        padding: 40px;
+    }
+
+    footer {
+        padding: 40px;
+    }
+
+    #product-details{
+        flex-direction: column;
+    }
+
+    .single-img{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .single-product-details{
+        width: 100%;
+    }
+
+    #blog{
+        padding: 100px 20px 0 20px;
+    }
+
+    .blog-box{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .blog-img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .blog-details{
+        width: 100%;
+    }
+
+    .blog-box h1{
+        top: -25px;
+    }
+
+    #about-head{
+        flex-direction: column;
+    }
+
+    #about-head img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #about-head div{
+        padding-left: 0;
+    }
+
+    .video video{
+        width: 100%;
+    }
+
+    #form-details{
+        padding: 40px;
+    }
+
+    #form-details form{
+        width: 50%;
+    }
+}
+
+@media(max-width:477px) {
+    header {
+        padding: 10px 30px;
+    }
+
+    #navbar {
+        width: 200px;
+    }
+
+    main {
+        padding: 0px 20px;
+        background-position: 55%;
+    }
+
+    h1 {
+        font-size: 38px;
+        line-height: 20px;
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 25px;
+    }
+
+    #feature-container {
+        padding: 30px 20px;
+    }
+
+    .feature {
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+
+    .products {
+        padding: 20px;
+    }
+
+    .product {
+        width: 100%;
+    }
+
+    #banner {
+        margin: 20px 0;
+    }
+
+    #banner h2 {
+        line-height: 25px;
+        font-size: 24px;
+    }
+
+    #banner button {
+        padding: 5px 15px;
+    }
+
+    #sm-banner {
+        padding: 20px;
+    }
+
+    .banner-box {
+        height: 40vh;
+    }
+
+    .banner-box2 {
+        margin-top: 20px;
+    }
+
+    #banner3 {
+        padding: 0 20px;
+    }
+
+    #banner3 .banner-box {
+        width: 100%;
+    }
+
+    #newsletter {
+        padding: 30px 20px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    footer {
+        padding: 30px 20px;
+    }
+
+    .copyright {
+        text-align: start;
+    }
+
+    #about-app h1{
+        font-size: 24px;
+    }
+
+    #contact-details{
+        flex-direction: column;
+    }
+
+    .details{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .map{
+        width: 100%;
+    }
+
+    #form-details{
+        margin: 10px;
+        padding: 30px 10px;
+        flex-wrap: wrap;
+    }
+
+    #form-details form{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #cart-add{
+        flex-direction: column;
+    }
+
+    #coupon,#subtotal{
+        width: 100%;
+    }
+}
