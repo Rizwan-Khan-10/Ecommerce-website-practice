@@ -992,3 +992,8 @@ footer a:hover {
     padding: 10px;
     font-size: 13px;
 }
+
+.quantity-input {
+    width: 50px;
+    text-align: center;
+}
